@@ -1,0 +1,253 @@
+{
+  "text": "ہی بھی اوپر دیکھتے ہوگے تو آپ کو سورہس تو دکتای ہوگا لیکن کیا ہوگا اگر اچانک سے وہ سورہ جی گایا بھو جائے یہ سننے میں جتنا دراونا لکتا ہے اصل میں اس سے کئی زیادہ خدرناک ہے پہلی با",
+  "language": "ur",
+  "duration": 11.96,
+  "words": [
+    {
+      "word": "ہی",
+      "start": 0.0,
+      "end": 0.0,
+      "probability": 0.188
+    },
+    {
+      "word": "بھی",
+      "start": 0.0,
+      "end": 0.16,
+      "probability": 0.747
+    },
+    {
+      "word": "اوپر",
+      "start": 0.16,
+      "end": 0.46,
+      "probability": 0.737
+    },
+    {
+      "word": "دیکھتے",
+      "start": 0.46,
+      "end": 0.76,
+      "probability": 0.906
+    },
+    {
+      "word": "ہوگے",
+      "start": 0.76,
+      "end": 1.04,
+      "probability": 0.727
+    },
+    {
+      "word": "تو",
+      "start": 1.04,
+      "end": 1.34,
+      "probability": 0.894
+    },
+    {
+      "word": "آپ",
+      "start": 1.34,
+      "end": 1.48,
+      "probability": 0.978
+    },
+    {
+      "word": "کو",
+      "start": 1.48,
+      "end": 1.62,
+      "probability": 0.973
+    },
+    {
+      "word": "سورہس",
+      "start": 1.62,
+      "end": 2.02,
+      "probability": 0.563
+    },
+    {
+      "word": "تو",
+      "start": 2.02,
+      "end": 2.1,
+      "probability": 0.285
+    },
+    {
+      "word": "دکتای",
+      "start": 2.1,
+      "end": 2.42,
+      "probability": 0.655
+    },
+    {
+      "word": "ہوگا",
+      "start": 2.42,
+      "end": 2.72,
+      "probability": 0.828
+    },
+    {
+      "word": "لیکن",
+      "start": 2.72,
+      "end": 3.4,
+      "probability": 0.706
+    },
+    {
+      "word": "کیا",
+      "start": 3.4,
+      "end": 3.68,
+      "probability": 0.946
+    },
+    {
+      "word": "ہوگا",
+      "start": 3.68,
+      "end": 4.02,
+      "probability": 0.967
+    },
+    {
+      "word": "اگر",
+      "start": 4.02,
+      "end": 4.46,
+      "probability": 0.887
+    },
+    {
+      "word": "اچانک",
+      "start": 4.46,
+      "end": 4.9,
+      "probability": 0.815
+    },
+    {
+      "word": "سے",
+      "start": 4.9,
+      "end": 5.1,
+      "probability": 0.967
+    },
+    {
+      "word": "وہ",
+      "start": 5.1,
+      "end": 5.28,
+      "probability": 0.989
+    },
+    {
+      "word": "سورہ",
+      "start": 5.28,
+      "end": 5.66,
+      "probability": 0.968
+    },
+    {
+      "word": "جی",
+      "start": 5.66,
+      "end": 5.8,
+      "probability": 0.391
+    },
+    {
+      "word": "گایا",
+      "start": 5.8,
+      "end": 5.98,
+      "probability": 0.609
+    },
+    {
+      "word": "بھو",
+      "start": 5.98,
+      "end": 6.1,
+      "probability": 0.552
+    },
+    {
+      "word": "جائے",
+      "start": 6.1,
+      "end": 6.36,
+      "probability": 0.743
+    },
+    {
+      "word": "یہ",
+      "start": 6.72,
+      "end": 7.0,
+      "probability": 0.33
+    },
+    {
+      "word": "سننے",
+      "start": 7.0,
+      "end": 7.42,
+      "probability": 0.654
+    },
+    {
+      "word": "میں",
+      "start": 7.42,
+      "end": 7.5,
+      "probability": 0.989
+    },
+    {
+      "word": "جتنا",
+      "start": 7.5,
+      "end": 7.78,
+      "probability": 0.845
+    },
+    {
+      "word": "دراونا",
+      "start": 7.78,
+      "end": 8.14,
+      "probability": 0.57
+    },
+    {
+      "word": "لکتا",
+      "start": 8.14,
+      "end": 8.4,
+      "probability": 0.784
+    },
+    {
+      "word": "ہے",
+      "start": 8.4,
+      "end": 8.62,
+      "probability": 0.957
+    },
+    {
+      "word": "اصل",
+      "start": 8.62,
+      "end": 9.18,
+      "probability": 0.687
+    },
+    {
+      "word": "میں",
+      "start": 9.18,
+      "end": 9.32,
+      "probability": 0.993
+    },
+    {
+      "word": "اس",
+      "start": 9.32,
+      "end": 9.56,
+      "probability": 0.54
+    },
+    {
+      "word": "سے",
+      "start": 9.56,
+      "end": 9.7,
+      "probability": 0.802
+    },
+    {
+      "word": "کئی",
+      "start": 9.7,
+      "end": 10.02,
+      "probability": 0.75
+    },
+    {
+      "word": "زیادہ",
+      "start": 10.02,
+      "end": 10.44,
+      "probability": 0.797
+    },
+    {
+      "word": "خدرناک",
+      "start": 10.44,
+      "end": 10.92,
+      "probability": 0.669
+    },
+    {
+      "word": "ہے",
+      "start": 10.92,
+      "end": 11.04,
+      "probability": 0.741
+    },
+    {
+      "word": "پہلی",
+      "start": 11.6,
+      "end": 11.92,
+      "probability": 0.873
+    },
+    {
+      "word": "با",
+      "start": 11.92,
+      "end": 11.96,
+      "probability": 0.662
+    }
+  ]
+}

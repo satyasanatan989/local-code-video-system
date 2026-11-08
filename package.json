@@ -1,0 +1,20 @@
+{
+  "name": "local-code-video-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "animejs": "^4.5.0",
+    "gsap": "^3.15.1",
+    "lottie-web": "^5.13.0",
+    "pixi.js": "^8.22.0",
+    "three": "^0.187.0",
+    "ws": "^8.22.1"
+  }
+}

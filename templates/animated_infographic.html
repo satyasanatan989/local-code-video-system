@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animated Infographic - PixiJS / SVG</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Marcellus&family=Rozha+One&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0B0E17;
+      color: #fff;
+      width: 1080px;
+      height: 1920px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 180px;
+      font-family: 'Marcellus', serif;
+    }
+    .header { text-align: center; margin-bottom: 60px; }
+    .badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 24px;
+      color: #00F0FF;
+      background: rgba(0, 240, 255, 0.1);
+      border: 1px solid rgba(0, 240, 255, 0.3);
+      padding: 8px 24px;
+      border-radius: 20px;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    .title {
+      font-family: 'Rozha One', serif;
+      font-size: 80px;
+      color: #FFFFFF;
+      letter-spacing: 0.05em;
+    }
+    .chart-box {
+      width: 900px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 24px;
+      padding: 50px 40px;
+      margin-bottom: 40px;
+    }
+    .bar-row { margin-bottom: 40px; }
+    .bar-header {
+      display: flex;
+      justify-content: space-between;
+      font-size: 32px;
+      margin-bottom: 14px;
+      color: #E2E8F0;
+    }
+    .bar-track {
+      width: 100%;
+      height: 48px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      overflow: hidden;
+      position: relative;
+    }
+    .bar-fill {
+      height: 100%;
+      border-radius: 12px;
+      width: 0%;
+      transition: none;
+    }
+    .b1 { background: linear-gradient(90deg, #4A5568, #718096); }
+    .b2 { background: linear-gradient(90deg, #3182CE, #63B3ED); }
+    .b3 { background: linear-gradient(90deg, #DD6B20, #F6AD55); box-shadow: 0 0 24px rgba(237, 137, 54, 0.6); }
+    .counter-val {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 36px;
+      font-weight: 700;
+      color: #FFD700;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="badge">📊 COMPUTE SCALING INFOGRAPHIC</div>
+    <div class="title">COMPUTATIONAL ADVANTAGE</div>
+  </div>
+
+  <div class="chart-box">
+    <!-- Bar 1 -->
+    <div class="bar-row">
+      <div class="bar-header">
+        <span>Classical Binary CPU</span>
+        <span class="counter-val" id="v1">1.2 TFLOPS</span>
+      </div>
+      <div class="bar-track">
+        <div class="bar-fill b1" id="f1"></div>
+      </div>
+    </div>
+
+    <!-- Bar 2 -->
+    <div class="bar-row">
+      <div class="bar-header">
+        <span>GPU Supercluster (H100)</span>
+        <span class="counter-val" id="v2">68.0 TFLOPS</span>
+      </div>
+      <div class="bar-track">
+        <div class="bar-fill b2" id="f2"></div>
+      </div>
+    </div>
+
+    <!-- Bar 3 -->
+    <div class="bar-row">
+      <div class="bar-header">
+        <span style="color: #F6AD55; font-weight: 700;">Quantum Coherent Core</span>
+        <span class="counter-val" id="v3" style="color: #F6AD55;">1,200.0 TFLOPS</span>
+      </div>
+      <div class="bar-track">
+        <div class="bar-fill b3" id="f3"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    window.setSeekTime = function(t) {
+      // Progress over 5 seconds
+      const p1 = Math.min(1.0, Math.max(0, (t - 0.5) / 1.5));
+      const p2 = Math.min(1.0, Math.max(0, (t - 1.5) / 1.5));
+      const p3 = Math.min(1.0, Math.max(0, (t - 2.5) / 1.5));
+
+      document.getElementById('f1').style.width = (p1 * 18) + '%';
+      document.getElementById('f2').style.width = (p2 * 54) + '%';
+      document.getElementById('f3').style.width = (p3 * 96) + '%';
+    };
+  </script>
+</body>
+</html>

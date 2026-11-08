@@ -1,0 +1,8 @@
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+partial_movie_files/
+*.tmp
+.DS_Store
+Thumbs.db
